@@ -11,9 +11,6 @@ function agregarAmigo(){ //funcion que evalua si la variable inputamigos esta: v
     ullistaAmigos.innerHTML += `<li>${inputamigos.value}</li>`;
 
 }; 
-    if(amigos.includes(nombreAmigo)){
-        alert(`el nombre ${nombreAmigo}` ya esta en la lista);
-        return;
 }
 
 function sortearAmigo() {//recibe la variable inputamigos y verifica su existencia en la lista de Amigos, retornara verdadero si existe y falso si no se encuentra en la lista
@@ -23,5 +20,6 @@ function sortearAmigo() {//recibe la variable inputamigos y verifica su existenc
     ulResultado.innerHTML = `<li> El amigo secreto es: ${amigosecreto}</li>`;
 
 }
+
 
 
